@@ -74,10 +74,22 @@ main {
   font-weight: 600;
 }
 
-.card_book_container {
+.list_book_container {
+  margin-top: 18px;
+}
+
+.list_book_container h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.list_book_container hr {
+  margin-bottom: 24px;
+}
+
+.list_card_book {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 32px;
   column-gap: 32px;
   row-gap: 16px;
 }
