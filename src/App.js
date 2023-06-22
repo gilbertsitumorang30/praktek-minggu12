@@ -4,6 +4,7 @@ import "./App.css";
 class App extends React.Component {
   render() {
     return (
+      <div>
         <header>
           <div className="inner_header">
             <img
@@ -71,6 +72,7 @@ class App extends React.Component {
             </div>
           </div>
         </main>
+      </div>
     );
   }
 }
